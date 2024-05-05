@@ -1,0 +1,76 @@
+:root {
+  --clr-primary: hsl(75, 94%, 57%);
+  --clr-secondary: hsl(0, 0%, 20%);
+  --clr-tertiary: hsl(0, 0%, 12%);
+  --clr-accent: hsl(0, 0%, 8%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-accent);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+main {
+  color: var(--clr-white);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.card {
+  background-color: var(--clr-tertiary);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 26px;
+}
+.card__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__profile-img {
+  border-radius: 100%;
+  width: 120px;
+  margin-bottom: 32px;
+}
+.card__profile-title {
+  margin-bottom: 8px;
+}
+.card__profile-subtitle {
+  color: var(--clr-primary);
+}
+.btn__group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.btn {
+  padding: 12px 12px;
+  border-radius: 8px;
+  background-color: var(--clr-secondary);
+  border: 0;
+  font-family: inherit;
+  color: var(--clr-white);
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
+}
