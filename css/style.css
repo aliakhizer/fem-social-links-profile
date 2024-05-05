@@ -1,0 +1,13 @@
+:root {
+  --clr-primary: hsl(75, 94%, 57%);
+  --clr-secondary: hsl(0, 0%, 20%);
+  --clr-tertiary: hsl(0, 0%, 12%);
+  --clr-accent: hsl(0, 0%, 8%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
